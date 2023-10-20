@@ -7,6 +7,8 @@ from tensorflow.keras import Sequential
 from keras.layers import *
 from keras.models import *
 from sklearn.metrics import mean_absolute_error
+pip install tensorflow==2.9.1 tensorboard==2.9.1 scipy==1.8.1
+pip install --upgrade tensorflow tensorboard scipy
 streamlit.set_page_config(page_title="Nellai Agency-Time Series Forecasting App",page_icon="📊",layout="wide")
 header=streamlit.container()
 dataset=streamlit.container()
