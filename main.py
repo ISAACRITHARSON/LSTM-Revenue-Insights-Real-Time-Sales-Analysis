@@ -2,7 +2,7 @@ import streamlit
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-from keras.models import Sequential
+from tensorflow.keras import Sequential
 from keras.layers import LSTM
 from keras.layers import Dense
 from sklearn.metrics import mean_absolute_error
