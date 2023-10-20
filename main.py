@@ -1,10 +1,12 @@
+pip install --upgrade tensorflow
 import streamlit
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+import tensorflow
 from tensorflow.keras import Sequential
-from keras.layers import LSTM
-from keras.layers import Dense
+from keras.layers import *
+from keras.models import *
 from sklearn.metrics import mean_absolute_error
 streamlit.set_page_config(page_title="Nellai Agency-Time Series Forecasting App",page_icon="📊",layout="wide")
 header=streamlit.container()
